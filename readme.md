@@ -3,28 +3,28 @@
 
 ![iPhone iPad Screenshots](/screenshots.jpg)
 
-#### Features
+# Features
 * Custom Keyboard
 * Accessory View
 * iPad Support
 * Dark Mode Support
 * Font Styles
-	* Title
-	* Heading
-	* Body
-	* Serif
+    * Title
+    * Heading
+    * Body
+    * Serif
 * Text Formatting
-	* Bold
-	* Italics
-	* Underline
-	* Strikethrough
+    * Bold
+    * Italics
+    * Underline
+    * Strikethrough
 * Text Alignment
 * Text Indents
 * Text Colors
 * Text Highlights
 * Undo Management
 
-#### How to use
+# How to use
 * Add NotesTextView framework to your project. [See how to do this here](https://www.youtube.com/watch?v=GMYxlkOE35k)
 * `import NoteTextView` in your ViewController and use the code below
 
@@ -42,6 +42,7 @@
         textView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
         textView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
         
+        
         // to adjust the content insets based on keyboard height
         textView.shouldAdjustInsetBasedOnKeyboardHeight = true
         
@@ -53,18 +54,18 @@
     }
 ```
 
-#### Apps Using NotesTextView
+### Apps Using NotesTextView
 * [Visits Journal](https://visits.app/download/) by Rohan Merchant
 
 
-#### Contributions
+### Contributions
 
 I'm always looking to improve this project. If you would like to contribute fork the repo and open a pull request with your changes.
 
-#### Author
+### Author
 [Rimesh Jotaniya](https://twitter.com/RecursiveSwift) 
 
-#### Licence
+### Licence
 Copyright (c) 2020 Rimesh Jotaniya <rimesh.j@icloud.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

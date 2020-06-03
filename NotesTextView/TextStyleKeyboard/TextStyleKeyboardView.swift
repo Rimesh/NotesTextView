@@ -117,7 +117,7 @@ class TextStyleKeyboardView: UIView{
         textColorPicker.delegate = self
         highlightColorPicker.delegate = self
         
-        backgroundColor = .systemBackground
+        backgroundColor = .tertiarySystemBackground
         layer.shadowColor = UIColor.black.cgColor
         layer.shadowOpacity = 0.2
         layer.shadowOffset = .zero
