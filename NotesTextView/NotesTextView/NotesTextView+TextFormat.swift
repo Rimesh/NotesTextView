@@ -28,7 +28,8 @@ extension NotesTextView{
             let _ = currentTraits.contains(trait) ? currentTraits.remove(trait) : currentTraits.update(with: trait)
             
             if let changedFontDescriptor = currentFont.fontDescriptor.withSymbolicTraits(currentTraits){
-                let updatedFont = UIFont(descriptor: changedFontDescriptor , size: 0)
+                let currentFontSize = currentFont.pointSize
+                let updatedFont = UIFont(descriptor: changedFontDescriptor , size: currentFontSize)
                 
                 if selectedRange.length != 0{
                     textStorage.enumerateAttribute(.font, in: selectedRange, options: .longestEffectiveRangeNotRequired) { (_, range, stop) in
