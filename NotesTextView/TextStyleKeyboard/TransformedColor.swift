@@ -13,7 +13,7 @@ import UIKit
 // We noticed that when we show the exact shade in the color picker it doesn't look right but feels right when applied to the text.
 // Hence this struct is used to map the shade in the color picker with applied color
 
-struct TransformedColor{
+struct TransformedColor {
     let visualColor: UIColor // the color which will be shown in Color Picker
     let appliedColor: UIColor // the color which will be applied to the text
 }
